@@ -1,0 +1,328 @@
+{
+  "form": {
+    "id": "NENPL-QF-001",
+    "name": "Online Process Controller Checklist",
+    "document_number": "NENPL/QF/001",
+    "revision": "00",
+    "company": "North East Nutrients Private Limited",
+    "address": "Village - Ramhari, Mangaldoi 784125, Assam, India",
+    "frequency": "Daily",
+    "layout": "portrait"
+  },
+
+  "elements": [
+
+    {
+      "id": "date",
+      "type": "date",
+      "label": "Date",
+      "required": true
+    },
+
+    {
+      "id": "checklist_title",
+      "type": "label",
+      "label": "Online Process Controller Checklist"
+    },
+
+    {
+      "id": "checklist_table",
+      "type": "table",
+      "label": "Process Checklist",
+
+      "columns": [
+        {
+          "id": "check_point",
+          "label": "Check Point",
+          "type": "text",
+          "width": 70
+        },
+        {
+          "id": "status",
+          "label": "OK/Not OK",
+          "type": "status",
+          "width": 15,
+          "options": [
+            "OK",
+            "NOT OK"
+          ]
+        },
+        {
+          "id": "remarks",
+          "label": "Remarks",
+          "type": "textarea",
+          "width": 15
+        }
+      ],
+
+      "sections": [
+
+        {
+          "id": "entrance",
+          "name": "ENTRANCE",
+
+          "rows": [
+
+            {
+              "id": "entrance_01",
+              "check_point": "Check for presence of IPA & Soap solution",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "entrance_02",
+              "check_point": "Check for hand drier working",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "entrance_03",
+              "check_point": "Check for usage of lint roller",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "entrance_04",
+              "check_point": "Check for working of air curtain",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "entrance_05",
+              "check_point": "Check for insecticator working",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "entrance_06",
+              "check_point": "Overall hygiene condition",
+              "status": "",
+              "remarks": ""
+            }
+          ]
+        },
+
+
+        {
+          "id": "premixing",
+          "name": "PREMIXING",
+
+          "rows": [
+
+            {
+              "id": "premixing_01",
+              "check_point": "Check for condition of Containers, trays and utensils",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "premixing_02",
+              "check_point": "Check the condition of CCP & OPRP",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "premixing_03",
+              "check_point": "Check for sieving of minor chemicals",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "premixing_04",
+              "check_point": "Check the hopper condition & feeding chute",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "premixing_05",
+              "check_point": "Check RPO main tank, service tank & heat tracer line not more than 45 degree Celsius",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "premixing_06",
+              "check_point": "DMG & RPO blend preparation temperature not more than 55 degree Celsius",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "premixing_07",
+              "check_point": "Check for proper cleanliness of washing area",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "premixing_08",
+              "check_point": "Check for presence of IPA",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "premixing_09",
+              "check_point": "Check for insecticator working",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "premixing_10",
+              "check_point": "Overall hygiene condition",
+              "status": "",
+              "remarks": ""
+            }
+          ]
+        },
+
+
+        {
+          "id": "bhu",
+          "name": "BHU",
+
+          "rows": [
+
+            {
+              "id": "bhu_01",
+              "check_point": "Check for cleanliness of the floor",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "bhu_02",
+              "check_point": "Check the hopper for foreign matter",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "bhu_03",
+              "check_point": "Check the condition of CCP & OPRP",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "bhu_04",
+              "check_point": "Check the condition of sugar screw conveyor hopper",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "bhu_05",
+              "check_point": "Check for presence of scissor for bag opening and scissor should be tied with chain",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "bhu_06",
+              "check_point": "Cold room temperature to be maintained less than 25 degree Celsius",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "bhu_07",
+              "check_point": "Check for presence of IPA",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "bhu_08",
+              "check_point": "Check for insecticator working",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "bhu_09",
+              "check_point": "Overall hygiene condition",
+              "status": "",
+              "remarks": ""
+            }
+          ]
+        },
+
+
+        {
+          "id": "mixing",
+          "name": "MIXING",
+
+          "rows": [
+
+            {
+              "id": "mixing_01",
+              "check_point": "Check for cleanliness of dough trolley and covering cloth",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "mixing_02",
+              "check_point": "Check for cleanliness of the dough feeder",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "mixing_03",
+              "check_point": "Check for the condition of the conveyor of dough feeder",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "mixing_04",
+              "check_point": "Flavour preparation room temperature to be maintained at less than 25 degree Celsius",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "mixing_05",
+              "check_point": "Check for presence of IPA",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "mixing_06",
+              "check_point": "Check for insecticator working",
+              "status": "",
+              "remarks": ""
+            },
+
+            {
+              "id": "mixing_07",
+              "check_point": "Overall hygiene condition",
+              "status": "",
+              "remarks": ""
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "operator_signature",
+      "type": "signature",
+      "label": "Operator Signature"
+    }
+
+  ]
+}
