@@ -1,2 +1,29 @@
-# form-builder
-An AI-based form builder that lets users upload an image of a form and automatically converts it into a digital, editable form. It uses the Qwen vision model through Groq to understand the form's fields, tables, sections, and overall layout, then generates a structured JSON that is used to recreate the form dynamically.
+# JSON Form Renderer
+
+This React/Vite project converts a JSON form definition into a working UI form.
+
+## Run
+
+```bash
+npm install
+npm run dev
+```
+
+## Change the form
+
+Replace:
+
+`src/forms/employee.json`
+
+with your AI-generated JSON. The same DynamicForm component will render it.
+
+Supported types:
+- text
+- number
+- date
+- textarea
+- dropdown
+- radio
+- checkbox
+- section
+- label
